@@ -7,14 +7,14 @@
       "scripts": [
         {"name": "f", "code": ":*://*::\nClipboard =\n(\nextract all durable project knowledge, decisions, architecture, workflows, bugs, fixes, commands, and next steps into a reusable memory file or update existing ones before I start a fresh chat.\n)\nSleep, 200\nSendInput, ^v\nreturn"},
         {"name": "hello", "code": "; Write your AHK code here\n; Example:\n   !h::\n       MsgBox, Hello bitch\n       return\n"},
-        {"name": "new kaine no", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n; Press middle mouse button to show menu\nMButton::\nMenu, MyMenu, Show\nreturn\n\n; Menu actions\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
+        {"name": "new kaine no", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\nMButton::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
       ]
     },
     "5555": {
       "name": "gangster",
       "disabled": false,
       "scripts": [
-        {"name": "new kaine no", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n; Press middle mouse button to show menu\nMButton::\nMenu, MyMenu, Show\nreturn\n\n; Menu actions\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
+        {"name": "new kaine no", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\nMButton::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
       ]
     }
   }
