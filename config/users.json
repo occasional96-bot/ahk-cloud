@@ -4,7 +4,7 @@
     "kaine": {
       "name": "Kaine Turner",
       "scripts": [
-        {"name": "Test Hello", "code": "^!h::\n    MsgBox, Hello from the cloud! Hotkey Ctrl+Alt+H is live.\n    return"}
+        {"name": "Test Hello", "code": "^h::\n    MsgBox, bitch\n    return"}
       ]
     }
   }
