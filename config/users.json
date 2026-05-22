@@ -1,22 +1,13 @@
 {
-  "version": "1.1.0",
+  "version": "1.0.0",
   "users": {
-    "alice": {
-      "name": "Alice",
-      "scripts": [
-        {"name": "Chrome Switch", "code": "^!c::\n    Run, chrome.exe\n    return"},
-        {"name": "Auto Backup", "code": "^!b::\n    MsgBox, Backup triggered!\n    return"}
-      ]
-    },
-    "bob": {
-      "name": "Bob",
-      "scripts": [
-        {"name": "Window Cycle", "code": "^!w::\n    Send, !{Tab}\n    return"}
-      ]
-    },
     "kaine": {
-      "name": "kaine",
+      "name": "Kaine Turner",
       "scripts": [
+        {
+          "name": "Test Hello",
+          "code": "^!h::\n    MsgBox, Hello from the cloud! Hotkey Ctrl+Alt+H is live.\n    return"
+        }
       ]
     }
   }
