@@ -5,7 +5,7 @@
       "name": "Laptop",
       "disabled": false,
       "scripts": [
-        {"name": "kaine", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^h::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"},
+        {"name": "kaine", "code": "MyMenu := Menu()\nMyMenu.Add(\"Open Chrome\", OpenChrome)\nMyMenu.Add(\"Open Notepad\", OpenNotepad)\nMyMenu.Add(\"Open Calculator\", OpenCalc)\n\nMButton:: {\n    MyMenu.Show()\n}\n\nOpenChrome(*) {\n    Run \"chrome.exe\"\n}\n\nOpenNotepad(*) {\n    Run \"notepad.exe\"\n}\n\nOpenCalc(*) {\n    Run \"calc.exe\"\n}"},
         {"name": "mm", "code": "XButton1::\nSend,^.\nreturn"}
       ]
     },
@@ -13,7 +13,7 @@
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "kaine", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^h::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"},
+        {"name": "kaine", "code": "MyMenu := Menu()\nMyMenu.Add(\"Open Chrome\", OpenChrome)\nMyMenu.Add(\"Open Notepad\", OpenNotepad)\nMyMenu.Add(\"Open Calculator\", OpenCalc)\n\nMButton:: {\n    MyMenu.Show()\n}\n\nOpenChrome(*) {\n    Run \"chrome.exe\"\n}\n\nOpenNotepad(*) {\n    Run \"notepad.exe\"\n}\n\nOpenCalc(*) {\n    Run \"calc.exe\"\n}"},
         {"name": "fd", "code": "^!k::\nMsgBox, Kaine hotkey works\nreturn"}
       ]
     }
