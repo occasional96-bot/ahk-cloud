@@ -1,6 +1,12 @@
 {
   "version": "1.1.0",
   "users": {
+    "9999": {
+      "name": "smith",
+      "scripts": [
+        {"name": "Test Hello", "code": "^h::\n    MsgBox, bitch\n    return"}
+      ]
+    },
     "121212": {
       "name": "Dude",
       "scripts": [
@@ -10,11 +16,6 @@
       "name": "Kaine Turner",
       "scripts": [
         {"name": "Test Hello", "code": "^h::\n    MsgBox, bitch\n    return"}
-      ]
-    },
-    "9999": {
-      "name": "smith",
-      "scripts": [
       ]
     }
   }
