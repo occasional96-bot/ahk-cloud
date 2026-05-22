@@ -4,6 +4,7 @@
     "9999": {
       "name": "smith",
       "scripts": [
+        {"name": "Test Hello", "code": "^h::\n    MsgBox, bitch nigga\n    return"}
       ]
     },
     "121212": {
@@ -14,7 +15,6 @@
     "kaine": {
       "name": "Kaine Turner",
       "scripts": [
-        {"name": "Test Hello", "code": "^h::\n    MsgBox, bitch\n    return"}
       ]
     }
   }
