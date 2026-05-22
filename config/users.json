@@ -13,7 +13,8 @@
       "name": "gangster",
       "disabled": false,
       "scripts": [
-        {"name": "hello", "code": "; Write your AHK code here\n; Example:\n   !h::\n       MsgBox, Hello bitch\n       return\n"}
+        {"name": "hello", "code": "; Write your AHK code here\n; Example:\n   !h::\n       MsgBox, Hello bitch\n       return\n"},
+        {"name": "new kaine no", "code": "#SingleInstance Force\n\n; Create menu ONCE at startup\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n; Press middle mouse button to show menu\nMButton::\nMenu, MyMenu, Show\nreturn\n\n; Menu actions\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
       ]
     }
   }
