@@ -1,26 +1,17 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "users": {
     "alice": {
       "name": "Alice",
       "scripts": [
-        {
-          "name": "Chrome Switch",
-          "code": "^!c::\n    Run, chrome.exe\n    return"
-        },
-        {
-          "name": "Auto Backup",
-          "code": "^!b::\n    MsgBox, Backup triggered!\n    return"
-        }
+        {"name": "Chrome Switch", "code": "^!c::\n    Run, chrome.exe\n    return"},
+        {"name": "Auto Backup", "code": "^!b::\n    MsgBox, Backup triggered!\n    return"}
       ]
     },
     "bob": {
       "name": "Bob",
       "scripts": [
-        {
-          "name": "Window Cycle",
-          "code": "^!w::\n    Send, !{Tab}\n    return"
-        }
+        {"name": "Window Cycle", "code": "^!w::\n    Send, !{Tab}\n    return"}
       ]
     }
   }
