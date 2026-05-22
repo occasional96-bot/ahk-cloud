@@ -11,7 +11,7 @@
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "^!k:: message box", "code": "^!k::\nMsgBox, Kaine hotkey works\nreturn"}
+        {"name": "^!k:: message box", "code": "^!k::\n#SingleInstance Force\n\nMsgBox Script Started\n\nMenu, MyMenu, Add, Test, TestLabel\n\nMsgBox Menu Created\n\nMButton::\nMsgBox Hotkey Fired\nMenu, MyMenu, Show\nreturn\n\nTestLabel:\nMsgBox Test Worked\nreturn"}
       ]
     }
   }
