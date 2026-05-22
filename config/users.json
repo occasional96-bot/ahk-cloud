@@ -6,6 +6,11 @@
       "scripts": [
         {"name": "Test Hello", "code": "^h::\n    MsgBox, bitch\n    return"}
       ]
+    },
+    "121212": {
+      "name": "Dude",
+      "scripts": [
+      ]
     }
   }
 }
