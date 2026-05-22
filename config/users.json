@@ -5,17 +5,13 @@
       "name": "Laptop",
       "disabled": false,
       "scripts": [
-        {"name": "new kaine no", "code": "Menu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^y::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"},
-        {"name": "tying aging", "code": "RAlt::\nSend, hello cunt\nreturn"}
       ]
     },
     "Player": {
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "new kaine no", "code": "Menu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^y::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"},
-        {"name": "tying aging", "code": "RAlt::\nSend, hello cunt\nreturn"},
-        {"name": "f", "code": "; Write your AHK code here\n; Example:\n   ^!h::      \n MsgBox, Hello\n       return\n"}
+        {"name": "kaine", "code": "; Write your AHK code here\n; Example:\n   ^h::\n      MsgBox, Hello\n       return\n"}
       ]
     }
   }
