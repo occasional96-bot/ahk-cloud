@@ -13,6 +13,11 @@
       "scripts": [
         {"name": "Window Cycle", "code": "^!w::\n    Send, !{Tab}\n    return"}
       ]
+    },
+    "kaine": {
+      "name": "kaine",
+      "scripts": [
+      ]
     }
   }
 }
