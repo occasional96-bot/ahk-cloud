@@ -1,13 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "users": {
     "kaine": {
       "name": "Kaine Turner",
       "scripts": [
-        {
-          "name": "Test Hello",
-          "code": "^!h::\n    MsgBox, Hello from the cloud! Hotkey Ctrl+Alt+H is live.\n    return"
-        }
+        {"name": "Test Hello", "code": "^!h::\n    MsgBox, Hello from the cloud! Hotkey Ctrl+Alt+H is live.\n    return"}
       ]
     }
   }
