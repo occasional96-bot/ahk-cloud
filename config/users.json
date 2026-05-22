@@ -5,7 +5,8 @@
       "name": "myguy",
       "disabled": false,
       "scripts": [
-        {"name": "f", "code": ":*://*::\nClipboard =\n(\nextract all durable project knowledge, decisions, architecture, workflows, bugs, fixes, commands, and next steps into a reusable memory file or update existing ones before I start a fresh chat.\n)\nSleep, 200\nSendInput, ^v\nreturn"}
+        {"name": "f", "code": ":*://*::\nClipboard =\n(\nextract all durable project knowledge, decisions, architecture, workflows, bugs, fixes, commands, and next steps into a reusable memory file or update existing ones before I start a fresh chat.\n)\nSleep, 200\nSendInput, ^v\nreturn"},
+        {"name": "hello", "code": "; Write your AHK code here\n; Example:\n   !h::\n       MsgBox, Hello bitch\n       return\n"}
       ]
     }
   }
