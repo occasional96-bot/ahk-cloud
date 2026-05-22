@@ -11,7 +11,7 @@
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "^!k:: message box", "code": "^!k::\n#SingleInstance Force\n\nMsgBox Script Started\n\nMenu, MyMenu, Add, Test, TestLabel\n\nMsgBox Menu Created\n\nMButton::\nMsgBox Hotkey Fired\nMenu, MyMenu, Show\nreturn\n\nTestLabel:\nMsgBox Test Worked\nreturn"}
+        {"name": "^!k:: message box", "code": "#SingleInstance Force\n\n; CREATE MENU FIRST\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n; YOUR OTHER CODE\nClipboard = extract all durable project knowledge\nSleep, 200\nSendInput, ^v\n\nReturn\n\nMButton::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
       ]
     }
   }
