@@ -4,7 +4,6 @@
     "Player": {
       "name": "myguy",
       "scripts": [
-        {"name": "noo", "code": "^h::\nMsgBox, RO Stored\nreturn"}
       ]
     }
   }
