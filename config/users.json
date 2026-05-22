@@ -6,7 +6,8 @@
       "disabled": false,
       "scripts": [
         {"name": "kaine", "code": "; Write your AHK code here\n; Example:\n   ^h::\n      MsgBox, Hello\n       return\n"},
-        {"name": "fd", "code": "^!k::\nMsgBox, Kaine hotkey works\nreturn"}
+        {"name": "fd", "code": "^!k::\nMsgBox, Kaine hotkey works\nreturn"},
+        {"name": "mm", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\nMButton::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
       ]
     },
     "Player": {
