@@ -5,6 +5,7 @@
       "name": "myguy",
       "disabled": false,
       "scripts": [
+        {"name": "mk", "code": "; Write your AHK code here\n; Example:\n ^!h::      MsgBox, Hello\n    return\n"}
       ]
     }
   }
