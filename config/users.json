@@ -11,7 +11,7 @@
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "new kaine no", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^y::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
+        {"name": "new kaine no", "code": "Menu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^y::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
       ]
     }
   }
