@@ -13,6 +13,7 @@
       "name": "gangster",
       "disabled": false,
       "scripts": [
+        {"name": "hello", "code": "; Write your AHK code here\n; Example:\n   !h::\n       MsgBox, Hello bitch\n       return\n"}
       ]
     }
   }
