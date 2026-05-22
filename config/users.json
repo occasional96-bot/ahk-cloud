@@ -1,5 +1,10 @@
 {
   "version": "1.1.0",
   "users": {
+    "Player": {
+      "name": "myguy",
+      "scripts": [
+      ]
+    }
   }
 }
