@@ -5,8 +5,7 @@
       "name": "Laptop",
       "disabled": false,
       "scripts": [
-        {"name": "kaine", "code": "; Write your AHK code here\n; Example:\n   ^h::\n      MsgBox, Hello\n       return\n"},
-        {"name": "fd", "code": "^!k::\nMsgBox, Kaine hotkey works\nreturn"},
+        {"name": "kaine", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^h::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"},
         {"name": "mm", "code": "XButton1::\nSend,^.\nreturn"}
       ]
     },
@@ -14,7 +13,7 @@
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "kaine", "code": "; Write your AHK code here\n; Example:\n   ^h::\n      MsgBox, Hello\n       return\n"},
+        {"name": "kaine", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^h::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"},
         {"name": "fd", "code": "^!k::\nMsgBox, Kaine hotkey works\nreturn"}
       ]
     }
