@@ -4,7 +4,6 @@
     "1235": {
       "name": "Old Mate",
       "scripts": [
-        {"name": "Test Hello", "code": "^h::\n    MsgBox, bitch nigga\n    return"}
       ]
     }
   }
