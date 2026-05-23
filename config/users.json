@@ -11,7 +11,7 @@
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "^!k:: message box", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, Open\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\nMButton::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
+        {"name": "^!k:: message box", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, Open\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\nMButton::\nMenu, MyMenu, Show\nreturn\n\nOpen:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
       ]
     }
   }
