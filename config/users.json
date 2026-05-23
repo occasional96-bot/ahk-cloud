@@ -11,7 +11,7 @@
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "^!k:: message box", "code": "MButton::\n    if !MyMenuReady {\n        Menu, MyMenu, Add, Open Chrome, OpenChrome\n        Menu, MyMenu, Add, Open Notepad, OpenNotepad\n        Menu, MyMenu, Add, Open Calculator, OpenCalc\n        MyMenuReady := true\n    }\n    Menu, MyMenu, Show\nreturn\n\nOpenChrome:\n    Run, chrome.exe\nreturn\n\nOpenNotepad:\n    Run, notepad.exe\nreturn\n\nOpenCalc:\n    Run, calc.exe\nreturn"}
+        {"name": "^!k:: message box", "code": "#SingleInstance Force\n\n; CREATE MENU FIRST\nMenu, MyMenu, Add, Open Chrome, OpenChrome\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n; YOUR OTHER CODE\nClipboard = extract all durable project knowledge\nSleep, 200\nSendInput, ^v\n\nReturn\n\nMButton::\nMenu, MyMenu, Show\nreturn\n\nOpenChrome:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"}
       ]
     }
   }
