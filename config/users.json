@@ -13,6 +13,7 @@
       "name": "Home Laptop",
       "disabled": false,
       "scripts": [
+        {"name": "MilkyWay", "code": "^w::\nMsgBox, Hello cunt\nreturn"}
       ]
     }
   }
