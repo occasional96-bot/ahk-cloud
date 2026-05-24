@@ -14,6 +14,7 @@
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
+        {"name": "ture", "code": "!h::\nMsgBox, Hello nigga\nreturn\n"},
         {"name": "MilkyWay", "code": "^w::\nMsgBox, Hello cunt\nreturn"}
       ]
     }
