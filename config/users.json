@@ -7,7 +7,8 @@
       "scripts": [
         {"name": "^!k:: message box", "code": "Menu, MyMenu, Add, Open Chrome, Open\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^RButton::\nMenu, MyMenu, Show\nreturn\n\nOpen:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"},
         {"name": "mia", "code": "^l::\nMsgBox, hello kaine\nreturn\n"},
-        {"name": "ture", "code": "!h::\nMsgBox, Hello nigga\nreturn\n"}
+        {"name": "ture", "code": "!h::\nMsgBox, Hello nigga\nreturn\n"},
+        {"name": "MilkyWay", "code": "^w::\nMsgBox, Hello cunt\nreturn"}
       ]
     },
     "6666": {
