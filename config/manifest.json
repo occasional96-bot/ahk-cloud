@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "client": {
-    "version": "3.0.7",
-    "exe_path": "client/WorkspaceClient-3.0.7.exe",
-    "sha256": "bd2d5bd667c3458e397a6a66e349d512da6bb9f4cb0452f318cd37b429185e36",
+    "version": "3.0.8",
+    "exe_path": "client/WorkspaceClient-3.0.8.exe",
+    "sha256": "607f2f70c5278c86285e2747b17266d7fa055a7f36b2c8d299fabcf3f4f76274",
     "min_supported": "3.0.3"
   },
   "runtimes": {},
