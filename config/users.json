@@ -27,6 +27,7 @@
       "name": "KIa 3rd Computer",
       "disabled": false,
       "scripts": [
+        {"name": "mia", "code": "^l::\nMsgBox, hello kaine\nreturn\n"}
       ]
     }
   }
