@@ -16,6 +16,7 @@
       "name": "lp",
       "disabled": false,
       "scripts": [
+        {"name": "mia", "code": "^l::\nMsgBox, hello kaine\nreturn\n"}
       ]
     }
   }
