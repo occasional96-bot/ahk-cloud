@@ -22,6 +22,12 @@
         {"name": "^!k:: message box", "code": "Menu, MyMenu, Add, Open Chrome, Open\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^RButton::\nMenu, MyMenu, Show\nreturn\n\nOpen:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"},
         {"name": "damdanial", "code": "; Paste any AutoHotkey v1 script here exactly as you tested it.\n; It runs as its own standalone program on the client - no changes needed.\n;\n; Example:\n!p::\n    MsgBox, fucker\n    return\n"}
       ]
+    },
+    "99": {
+      "name": "KIa 3rd Computer",
+      "disabled": false,
+      "scripts": [
+      ]
     }
   }
 }
