@@ -5,9 +5,7 @@
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "ture", "code": "!h::\nMsgBox, Hello nigga\nreturn\n"},
-        {"name": "MilkyWay", "code": "^w::\nMsgBox, Hello cunt\nreturn"},
-        {"name": "damdanial", "code": "; Paste any AutoHotkey v1 script here exactly as you tested it.\n; It runs as its own standalone program on the client - no changes needed.\n;\n; Example:\n!p::\n    MsgBox, fucker\n    return\n"}
+        {"name": "mia", "code": "^l::\nMsgBox, hello kaine\nreturn\n"}
       ]
     },
     "brother": {
