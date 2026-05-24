@@ -1,20 +1,18 @@
 {
   "version": "2.0.0",
   "users": {
-    "5555": {
-      "name": "Laptop",
-      "disabled": false,
-      "scripts": [
-        {"name": "^!k:: message box", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, Open\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^b::\nMenu, MyMenu, Show\nreturn\n\nOpen:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"},
-        {"name": "MilkyWay", "code": "^w::\nMsgBox, Hello cunt\nreturn"}
-      ]
-    },
     "Player": {
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
         {"name": "^!k:: message box", "code": "#SingleInstance Force\n\nMenu, MyMenu, Add, Open Chrome, Open\nMenu, MyMenu, Add, Open Notepad, OpenNotepad\nMenu, MyMenu, Add, Open Calculator, OpenCalc\n\n^b::\nMenu, MyMenu, Show\nreturn\n\nOpen:\nRun, chrome.exe\nreturn\n\nOpenNotepad:\nRun, notepad.exe\nreturn\n\nOpenCalc:\nRun, calc.exe\nreturn"},
         {"name": "MilkyWay", "code": "^w::\nMsgBox, Hello cunt\nreturn"}
+      ]
+    },
+    "ghee": {
+      "name": "Home Laptop",
+      "disabled": false,
+      "scripts": [
       ]
     }
   }
