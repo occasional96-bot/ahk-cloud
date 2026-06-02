@@ -57,12 +57,14 @@
       "name": "Hieu Inside Computer",
       "disabled": false,
       "scripts": [
+        {"name": "mia", "code": "^l::\nMsgBox, hello kaine\nreturn\n"}
       ]
     },
     "24": {
       "name": "Hieu Outside Laptop",
       "disabled": false,
       "scripts": [
+        {"name": "mia", "code": "^l::\nMsgBox, hello kaine\nreturn\n"}
       ]
     }
   }
