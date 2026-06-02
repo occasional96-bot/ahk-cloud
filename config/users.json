@@ -58,6 +58,12 @@
       "disabled": false,
       "scripts": [
       ]
+    },
+    "24": {
+      "name": "Hieu Outside Laptop",
+      "disabled": false,
+      "scripts": [
+      ]
     }
   }
 }
