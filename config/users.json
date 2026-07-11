@@ -37,7 +37,7 @@
       "disabled": false,
       "scripts": [
         {"name": "3rd Kia Computer ERA", "sha256": "980310e08abfc06429094148ead123ce4146b1469285fe36cf852adf9aa45187", "size": 3008},
-        {"name": "Pad Counter to Folders", "sha256": "aeaace41d5d89ff87149428c43d20e393a3c75ea1d5a34a128ec0b923a75457b", "size": 3171}
+        {"name": "Shaun - Pad Counter to Folders (Stocktake)", "sha256": "aeaace41d5d89ff87149428c43d20e393a3c75ea1d5a34a128ec0b923a75457b", "size": 3171}
       ]
     },
     "45": {
@@ -60,7 +60,7 @@
       "name": "Shaun Computer",
       "disabled": false,
       "scripts": [
-        {"name": "Pad Counter to Folders", "sha256": "aeaace41d5d89ff87149428c43d20e393a3c75ea1d5a34a128ec0b923a75457b", "size": 3171},
+        {"name": "Shaun - Pad Counter to Folders (Stocktake)", "sha256": "aeaace41d5d89ff87149428c43d20e393a3c75ea1d5a34a128ec0b923a75457b", "size": 3171},
         {"name": "Upload Script Stocktake Warehouse Pro", "sha256": "80e68d9a65629333619fdceea5327b10f0164dd319adae7d18eaaead462c243c", "size": 5046}
       ]
     },
