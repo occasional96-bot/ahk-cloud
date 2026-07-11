@@ -6,7 +6,6 @@
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "^!k:: message box", "sha256": "711cf832c9580a7f9689a7b4d1946332b41fc1f63dec8e041205ab73d7e82fff", "size": 264},
         {"name": "pdftesting", "sha256": "ee851ecbcfd80839c5ee1529c8628f0b51c358c0337185fa7f8f09f3c3347845", "size": 13624}
       ]
     },
@@ -14,7 +13,6 @@
       "name": "Laptop",
       "disabled": false,
       "scripts": [
-        {"name": "^!k:: message box", "sha256": "711cf832c9580a7f9689a7b4d1946332b41fc1f63dec8e041205ab73d7e82fff", "size": 264},
         {"name": "pdftesting", "sha256": "ee851ecbcfd80839c5ee1529c8628f0b51c358c0337185fa7f8f09f3c3347845", "size": 13624}
       ]
     },
@@ -68,7 +66,6 @@
       "name": "KIa 3rd Computer",
       "disabled": false,
       "scripts": [
-        {"name": "^!k:: message box", "sha256": "711cf832c9580a7f9689a7b4d1946332b41fc1f63dec8e041205ab73d7e82fff", "size": 264},
         {"name": "3rd Kia Computer ERA", "sha256": "980310e08abfc06429094148ead123ce4146b1469285fe36cf852adf9aa45187", "size": 3008},
         {"name": "Upload Script Stocktake Warehouse Pro", "sha256": "80e68d9a65629333619fdceea5327b10f0164dd319adae7d18eaaead462c243c", "size": 5046},
         {"name": "Barcode Netum Scanner", "sha256": "3eef99dd90a716ff770144111102527229012a8d1f7e8072778604580e6f172d", "size": 12671},
