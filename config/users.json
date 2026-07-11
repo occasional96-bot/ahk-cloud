@@ -36,8 +36,7 @@
       "name": "Josh's Computer",
       "disabled": false,
       "scripts": [
-        {"name": "3rd Kia Computer ERA", "sha256": "980310e08abfc06429094148ead123ce4146b1469285fe36cf852adf9aa45187", "size": 3008},
-        {"name": "Shaun - Pad Counter to Folders (Stocktake)", "sha256": "aeaace41d5d89ff87149428c43d20e393a3c75ea1d5a34a128ec0b923a75457b", "size": 3171}
+        {"name": "3rd Kia Computer ERA", "sha256": "980310e08abfc06429094148ead123ce4146b1469285fe36cf852adf9aa45187", "size": 3008}
       ]
     },
     "45": {
