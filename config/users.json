@@ -1,12 +1,14 @@
 {
-  "version": "3.1.0",
+  "version": "3.2.0",
   "schema_version": 2,
   "users": {
     "1": {
       "name": "Home Computer",
       "disabled": false,
       "scripts": [
-        {"name": "pdftesting", "sha256": "ee851ecbcfd80839c5ee1529c8628f0b51c358c0337185fa7f8f09f3c3347845", "size": 13624}
+        {"name": "pdftesting", "sha256": "ee851ecbcfd80839c5ee1529c8628f0b51c358c0337185fa7f8f09f3c3347845", "size": 13624},
+        {"name": "Simon - BYD DMS spare parts stock Inquire", "sha256": "993d874b8208d35419c5871eaaf70fe0b32b18b79356ad9a468f65e693b49ea3", "size": 47397},
+        {"name": "Upload Script Stocktake Warehouse Pro", "sha256": "80e68d9a65629333619fdceea5327b10f0164dd319adae7d18eaaead462c243c", "size": 5046}
       ]
     },
     "2": {
