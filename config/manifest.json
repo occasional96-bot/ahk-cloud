@@ -6,7 +6,7 @@
     "sha256": "cff23fbb323b31bbfac1952fd9abb828f5c75215e3a4f2fda30a6253c2326d14",
     "min_supported": "3.4.0"
   },
-  "assets": { "version": "1", "path": "client/assets-1.zip", "sha256": "be34a7c537a9639fc66c6753aec6fa42cac2c258a99e5d08a42a0fd8b637b475" },
+  "assets": { "version": "2", "path": "client/assets-2.zip", "sha256": "75db9ffb4e527e8b9b14953a4bfd1d747277db9fa1c4d820378eaeb2cec885f3" },
   "runtimes": {},
   "payloads": {}
 }
